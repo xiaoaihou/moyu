@@ -1,12 +1,27 @@
 {
-  "name": "moyu",
+  "name": "tjts5901",
   "version": "1.0.0",
+  "description": "Group project for course TJTS5901 - Continuous Software Engineering",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "express": "^4.18.2",
+    "https": "^1.0.0"
+  },
+  "devDependencies": {
+    "cucumber": "^6.0.7",
+    "jest": "^29.7.0",
+    "jest-cucumber": "^3.0.1",
+    "nodemon": "^3.0.3",
+    "supertest": "^6.3.4"
+  }
 }
