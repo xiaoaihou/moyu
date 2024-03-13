@@ -75,7 +75,7 @@ getData()
   ]*/
 
 // empty array for easier testing
-let orders = []
+let orders = [] 
 
 // Store matches that have happened after submitting an order here
 let trades = []
